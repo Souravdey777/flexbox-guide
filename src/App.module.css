@@ -70,10 +70,13 @@
   font-size: 14px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .attributesContainer {
     flex-direction: column;
   }
+}
+
+@media (max-width: 767px) {
   .otherSection {
     flex-direction: column;
   }
@@ -82,5 +85,6 @@
   }
   .rootFlexCode {
     padding: 20px 40px;
+    min-width: 240px;
   }
 }
