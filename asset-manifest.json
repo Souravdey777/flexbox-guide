@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/flexbox-guide/static/css/main.fff47fd4.chunk.css",
-    "main.js": "/flexbox-guide/static/js/main.53d35c6d.chunk.js",
-    "main.js.map": "/flexbox-guide/static/js/main.53d35c6d.chunk.js.map",
+    "main.css": "/flexbox-guide/static/css/main.efe828c8.chunk.css",
+    "main.js": "/flexbox-guide/static/js/main.05cf2fad.chunk.js",
+    "main.js.map": "/flexbox-guide/static/js/main.05cf2fad.chunk.js.map",
     "runtime-main.js": "/flexbox-guide/static/js/runtime-main.6534b9b0.js",
     "runtime-main.js.map": "/flexbox-guide/static/js/runtime-main.6534b9b0.js.map",
     "static/js/2.0b95a628.chunk.js": "/flexbox-guide/static/js/2.0b95a628.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.6a44e4d4.chunk.js": "/flexbox-guide/static/js/3.6a44e4d4.chunk.js",
     "static/js/3.6a44e4d4.chunk.js.map": "/flexbox-guide/static/js/3.6a44e4d4.chunk.js.map",
     "index.html": "/flexbox-guide/index.html",
-    "static/css/main.fff47fd4.chunk.css.map": "/flexbox-guide/static/css/main.fff47fd4.chunk.css.map",
+    "static/css/main.efe828c8.chunk.css.map": "/flexbox-guide/static/css/main.efe828c8.chunk.css.map",
     "static/js/2.0b95a628.chunk.js.LICENSE.txt": "/flexbox-guide/static/js/2.0b95a628.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6534b9b0.js",
     "static/js/2.0b95a628.chunk.js",
-    "static/css/main.fff47fd4.chunk.css",
-    "static/js/main.53d35c6d.chunk.js"
+    "static/css/main.efe828c8.chunk.css",
+    "static/js/main.05cf2fad.chunk.js"
   ]
 }
