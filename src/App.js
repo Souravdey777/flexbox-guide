@@ -20,7 +20,6 @@ function App() {
     <div className={Styles.root}>
       <div className={Styles.containerSection}>
         <FlexContainer heights={heights} attributes={attributes} />
-        <div className={Styles.hLine} />
       </div>
       <div className={Styles.otherSection}>
         <FlexAttributes attributes={attributes} setattributes={setattributes} />

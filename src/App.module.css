@@ -26,12 +26,6 @@
   background-color: #888;
 }
 
-.vLine {
-  width: 0.5px;
-  height: 100%;
-  background-color: #888;
-}
-
 .rootFlexAttributes {
   flex: 1;
   padding: 20px 0px;
