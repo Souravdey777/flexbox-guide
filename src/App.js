@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Styles from './App.module.css';
+import FlexCode from './Components/FlexCode';
+import FlexContainer from './Components/FlexContainer';
+import FlexAttributes from './Components/FlexAttributes';
 
 function App() {
+  const [heights, setheights] = useState([60, 60, 60, 60, 60]);
+  const [attributes, setattributes] = useState(
+    {
+      flexDirection: "",
+      flexWrap: "",
+      justifyContent: "",
+      alignItems: "",
+      alignContent: "",
+    }
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={Styles.root}>
+      <div className={Styles.containerSection}>
+        <FlexContainer heights={heights} attributes={attributes} />
+        <div className={Styles.hLine} />
+      </div>
+      <div className={Styles.otherSection}>
+        <FlexAttributes attributes={attributes} setattributes={setattributes} />
+        <div className={Styles.vLine} />
+        <FlexCode />
+      </div>
     </div>
   );
 }
+
 
 export default App;

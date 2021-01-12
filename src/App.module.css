@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.containerSection {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  max-height: 400px;
+  flex: 1;
+}
+
+.otherSection {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 50vh;
+}
+
+.hLine {
+  width: 100%;
+  height: 1px;
+  background-color: #888;
+}
+
+.vLine {
+  width: 1px;
+  height: 100%;
+  background-color: #888;
+}
+
+.rootFlexAttributes {
+  flex: 1;
+}
+
+.heading {
+  margin: 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.attributesContainer {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.eachAttributeColumn {
+  min-width: 120px;
+  padding: 0px 10px;
+}
+
+.attribute {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+.value {
+  font-size: 14px;
+  color: #ffa500;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1023px) {
+  .attributesContainer {
+    flex-direction: column;
+  }
+
+  .otherSection {
+    flex-direction: column;
+  }
+}
