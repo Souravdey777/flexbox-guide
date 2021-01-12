@@ -8,7 +8,7 @@ function FlexCode(props) {
             <div>display : flex,</div>
             {    Object.keys(props.attributes).map((key, index) =>
                 props.attributes[key] !== "" ?
-                    <div key={index}>{key} : {props.attributes[key]}</div> : null
+                    <div key={index}>{key} : {props.attributes[key]},</div> : null
             )}
             <div>{`}`}</div>
         </div>
