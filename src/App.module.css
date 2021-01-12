@@ -13,6 +13,10 @@
   flex: 1;
 }
 
+.hoverStyle {
+  height: inherit;
+}
+
 .otherSection {
   display: flex;
   flex-direction: row;
@@ -45,8 +49,14 @@
 }
 
 .eachAttributeColumn {
-  min-width: 120px;
+  min-width: 150px;
   padding: 0px 10px;
+}
+
+.itemOperationsContainer {
+  width: 150px;
+  padding: 0px 10px;
+  margin: 0px 20px;
 }
 
 .attribute {
@@ -55,16 +65,24 @@
   padding: 4px 10px;
 }
 
-.value {
+.value,
+.itemOperations {
   font-size: 14px;
   color: #ffa500;
   padding: 4px 10px;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.value:hover,
+.itemOperations:hover {
+  background-color: #ffebc7;
 }
 
 .rootFlexCode {
-  padding: 40px 10px;
+  padding: 40px 20px;
   min-width: 300px;
+  min-height: 200px;
   background-color: #333;
   color: white;
   font-size: 14px;
@@ -86,5 +104,8 @@
   .rootFlexCode {
     padding: 20px 40px;
     min-width: 240px;
+  }
+  .itemOperationsContainer {
+    flex: 1;
   }
 }

@@ -25,15 +25,27 @@ function FlexAttributes(props) {
                 <div>
                 </div>
             </div>
+            <div className={Styles.itemOperationsContainer}>
+                <div className={Styles.attribute}>Flex Items</div>
+                <div className={Styles.itemOperations} onClick={() => {
+                    props.setheights([...props.heights, 60])
+                }}>add Item</div>
+                <div className={Styles.itemOperations} onClick={() => {
+                    if (props.heights.length > 1) {
+                        props.setheights([...props.heights.slice(0, (props.heights.length - 1))])
+                    }
+                }}>remove Item</div>
+            </div>
         </div>
     );
 }
 
 function Value(props) {
     return (
-        <div className={Styles.value} style={props.attributes[`${props.attributeName}`] === props.value ? { backgroundColor: "#ffa500", color: "#fff" } : {}} onClick={() => {
-            props.setattributes({ ...props.attributes, [`${props.attributeName}`]: props.attributes[`${props.attributeName}`] === props.value ? "" : props.value });
-        }}>{props.value}</div>
+        <div className={Styles.value} style={props.attributes[`${props.attributeName}`] === props.value ? { backgroundColor: "#ffa500", color: "#fff" } : {}}
+            onClick={() => {
+                props.setattributes({ ...props.attributes, [`${props.attributeName}`]: props.attributes[`${props.attributeName}`] === props.value ? "" : props.value });
+            }}>{props.value}</div>
     );
 }
 

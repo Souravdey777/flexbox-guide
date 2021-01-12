@@ -5,7 +5,6 @@ import FlexContainer from './Components/FlexContainer';
 import FlexAttributes from './Components/FlexAttributes';
 
 function App() {
-  const [heights, setheights] = useState([60, 60, 60, 60, 60]);
   const [attributes, setattributes] = useState(
     {
       flexDirection: "",
@@ -15,6 +14,7 @@ function App() {
       alignContent: "",
     }
   );
+  const [heights, setheights] = useState([60, 60, 60, 60]);
 
   return (
     <div className={Styles.root}>
@@ -22,8 +22,8 @@ function App() {
         <FlexContainer heights={heights} attributes={attributes} />
       </div>
       <div className={Styles.otherSection}>
-        <FlexAttributes attributes={attributes} setattributes={setattributes} />
-        <div className={Styles.vLine} />
+        <FlexAttributes attributes={attributes} setattributes={setattributes} heights={heights} setheights={setheights} />
+
         <FlexCode attributes={attributes} />
       </div>
     </div>
