@@ -25,7 +25,7 @@ function App() {
       <div className={Styles.otherSection}>
         <FlexAttributes attributes={attributes} setattributes={setattributes} />
         <div className={Styles.vLine} />
-        <FlexCode />
+        <FlexCode attributes={attributes} />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ function FlexContainer(props) {
     })
     return (
         <div style={Styles}>
-            {props.heights.map((heights, index) => <div key={index} style={{ height: `${heights}px`, display: "flex", justifyContent: "center", alignItems: "flex-start", width: "60px", margin: "1px", backgroundColor: '#ffa500', fontSize: "18px", fontWeight: "bold", color: "#fff" }}>{index + 1}</div>)}
+            {props.heights.map((heights, index) => <div key={index} style={{ height: `${heights}px`, display: "flex", justifyContent: "center", alignItems: "flex-start", width: "60px", margin: "0.5px", backgroundColor: '#ffa500', fontSize: "18px", fontWeight: "bold", color: "#fff" }}>{index + 1}</div>)}
         </div>
     );
 }

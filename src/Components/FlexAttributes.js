@@ -14,12 +14,12 @@ function FlexAttributes(props) {
         <div className={Styles.rootFlexAttributes} >
             <div className={Styles.heading}>Attributes</div>
             <div className={Styles.attributesContainer}>
-                {Object.keys(props.attributes).map(attributeName =>
-                    <div className={Styles.eachAttributeColumn}>
+                {Object.keys(props.attributes).map((attributeName, index) =>
+                    <div className={Styles.eachAttributeColumn} key={index}>
                         <div className={Styles.attribute}>
                             {attributeName.split(/(?=[A-Z])/)[0].toLowerCase() + '-' + attributeName.split(/(?=[A-Z])/)[1].toLowerCase()}
                         </div>
-                        {Attributes[`${attributeName}`].map((value) => <Value value={value} attributes={props.attributes} attributeName={attributeName} setattributes={props.setattributes} />)}
+                        {Attributes[`${attributeName}`].map((value, index) => <Value value={value} key={index} attributes={props.attributes} attributeName={attributeName} setattributes={props.setattributes} />)}
                     </div>)
                 }
                 <div>
