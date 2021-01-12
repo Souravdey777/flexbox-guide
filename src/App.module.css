@@ -1,3 +1,12 @@
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .root {
   display: flex;
   flex-direction: column;
@@ -74,11 +83,6 @@
   cursor: pointer;
 }
 
-.value:hover,
-.itemOperations:hover {
-  background-color: #ffebc7;
-}
-
 .rootFlexCode {
   padding: 40px 20px;
   min-width: 300px;
@@ -86,6 +90,13 @@
   background-color: #333;
   color: white;
   font-size: 14px;
+}
+
+@media (hover: hover) {
+  .value:hover,
+  .itemOperations:hover {
+    background-color: #ffebc7;
+  }
 }
 
 @media (max-width: 1023px) {
