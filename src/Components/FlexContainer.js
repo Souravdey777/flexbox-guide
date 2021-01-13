@@ -3,7 +3,7 @@ import Styles from '../App.module.css';
 
 function FlexContainer(props) {
     const dynamicStyles = {}
-    Object.keys(props.attributes).map(key => {
+    Object.keys(props.attributes).forEach(key => {
         // console.log(key + " : " + props.attributes[key])
         dynamicStyles[`${key}`] = props.attributes[key]
     })
