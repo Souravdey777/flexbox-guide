@@ -4,13 +4,17 @@ import Styles from '../App.module.css';
 function FlexContainer(props) {
     const dynamicStyles = {}
     Object.keys(props.attributes).map(key => {
-        console.log(key + " : " + props.attributes[key])
+        // console.log(key + " : " + props.attributes[key])
         dynamicStyles[`${key}`] = props.attributes[key]
     })
-    console.log("heights", props.heights)
+    var item = [];
+    for (var i = 0; i < props.count; i++) {
+        item.push(<div key={i} className={Styles.singleItem}>{i + 1}</div>);
+    }
+    // console.log(item)
     return (
         <div style={dynamicStyles} className={Styles.hoverStyle}>
-            {props.heights.map((heights, index) => <div key={index} className={Styles.singleItem} style={{ height: `${heights}px` }}>{index + 1}</div>)}
+            {item}
         </div>
     );
 }

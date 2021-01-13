@@ -15,16 +15,16 @@ function App() {
       alignContent: "",
     }
   );
-  const [heights, setheights] = useState([40, 40, 40, 40]);
+  const [count, setcount] = useState(5);
 
   return (
     <div className={Styles.root}>
       <div className={Styles.containerSection}>
-        <FlexContainer heights={heights} attributes={attributes} />
+        <FlexContainer count={count} attributes={attributes} />
         <FlexHeading />
       </div>
       <div className={Styles.otherSection}>
-        <FlexAttributes attributes={attributes} setattributes={setattributes} heights={heights} setheights={setheights} />
+        <FlexAttributes attributes={attributes} setattributes={setattributes} count={count} setcount={setcount} />
         <FlexCode attributes={attributes} />
       </div>
     </div>
