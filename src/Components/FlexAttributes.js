@@ -39,6 +39,7 @@ function FlexAttributes(props) {
                 <div>
                 </div>
             </div>
+            <div className={Styles.hLine} />
             <div className={Styles.itemOperationsContainer}>
                 <div className={Styles.attribute}>Flex Items</div>
                 <div className={Styles.itemOperations} onClick={() => {

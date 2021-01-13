@@ -51,7 +51,7 @@
 }
 
 .hLine {
-  width: 100%;
+  margin: 12px 40px;
   height: 0.5px;
   background-color: #888;
 }
