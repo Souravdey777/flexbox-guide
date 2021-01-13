@@ -42,11 +42,11 @@ function FlexAttributes(props) {
             <div className={Styles.itemOperationsContainer}>
                 <div className={Styles.attribute}>Flex Items</div>
                 <div className={Styles.itemOperations} onClick={() => {
-                    if (props.heights.length < 10) {
+                    if (props.heights.length < 25) {
                         props.setheights([...props.heights, 60])
                     }
                     else {
-                        toast('Maximum of 10 items can be added!', {
+                        toast('Maximum of 25 items can be added!', {
                             position: "top-center",
                             autoClose: 3000,
                             hideProgressBar: true,

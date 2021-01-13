@@ -31,6 +31,19 @@
   background-color: #ffa50022;
 }
 
+.singleItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 60px;
+  margin: 0.5px;
+  background-color: #ffa500;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
 .otherSection {
   display: flex;
   flex-direction: row;
@@ -57,8 +70,8 @@
 }
 
 .pageHeading {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 900;
   color: #333;
 }
 
@@ -85,6 +98,7 @@
   margin: 0px -4px;
   padding: 0px 4px;
   text-decoration: none;
+  border-radius: 6px;
 }
 
 .link:hover {

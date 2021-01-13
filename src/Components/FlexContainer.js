@@ -10,7 +10,7 @@ function FlexContainer(props) {
     console.log("heights", props.heights)
     return (
         <div style={dynamicStyles} className={Styles.hoverStyle}>
-            {props.heights.map((heights, index) => <div key={index} style={{ height: `${heights}px`, display: "flex", justifyContent: "center", alignItems: "flex-start", width: "60px", margin: "0.5px", backgroundColor: '#ffa500', fontSize: "18px", fontWeight: "bold", color: "#fff" }}>{index + 1}</div>)}
+            {props.heights.map((heights, index) => <div key={index} className={Styles.singleItem} style={{ height: `${heights}px` }}>{index + 1}</div>)}
         </div>
     );
 }
