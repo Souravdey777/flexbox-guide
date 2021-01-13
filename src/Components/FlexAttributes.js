@@ -45,7 +45,9 @@ function Value(props) {
         <div className={Styles.value} style={props.attributes[`${props.attributeName}`] === props.value ? { backgroundColor: "#ffa500", color: "#fff" } : {}}
             onClick={() => {
                 props.setattributes({ ...props.attributes, [`${props.attributeName}`]: props.attributes[`${props.attributeName}`] === props.value ? "" : props.value });
-            }}>{props.value}</div>
+            }}>
+            {props.value}
+        </div>
     );
 }
 
