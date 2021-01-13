@@ -41,7 +41,7 @@ function FlexAttributes(props) {
             </div>
             <div className={Styles.hLine} />
             <div className={Styles.itemOperationsContainer}>
-                <div className={Styles.attribute}>Flex Items</div>
+                <div className={Styles.attribute}>flex items</div>
                 <div className={Styles.itemOperations} onClick={() => {
                     if (props.count < 24) {
                         props.setcount(props.count + 1)
