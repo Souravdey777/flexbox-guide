@@ -96,7 +96,7 @@
 }
 
 .githublink {
-  padding: 4px 0px;
+  padding: 8px 0px;
   cursor: pointer;
 }
 
@@ -181,8 +181,8 @@
   border: 1px solid #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 10px 0;
-  padding-right: 28px;
+  padding: 4px 0;
+  padding-right: 24px;
   position: absolute;
   z-index: 1;
   top: -5px;

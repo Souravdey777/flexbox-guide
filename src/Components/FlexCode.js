@@ -1,18 +1,39 @@
 import React, { useRef } from 'react';
 import Styles from '../App.module.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function FlexCode(props) {
     const textarea = useRef();
 
     const copyToClipboard = () => {
-        console.log(textarea.current.innerText)
+        toast('Copied!', {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: false,
+            progress: undefined,
+        });
         navigator.clipboard.writeText(textarea.current.innerText)
     };
     return (
         <div className={Styles.rootFlexCode}>
+            <ToastContainer
+                position="top-center"
+                autoClose={2000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable={false}
+                pauseOnHover={false}
+            />
             {
                 document.queryCommandSupported('copy') &&
-                <div onClick={() => copyToClipboard()} className={Styles.copyIcon}><i className="material-icons">content_copy</i>
+                <div onClick={() => copyToClipboard()} className={Styles.copyIcon}><i style={{ fontSize: "16px" }} className="material-icons">content_copy</i>
                     <span className={Styles.tooltiptext}>Click to Copy</span>
                 </div>
             }
@@ -25,7 +46,7 @@ function FlexCode(props) {
                 )}
                 <div>{`}`}</div>
             </div>
-        </div>
+        </div >
     );
 }
 

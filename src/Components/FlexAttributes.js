@@ -17,7 +17,7 @@ function FlexAttributes(props) {
         <div className={Styles.rootFlexAttributes} >
             <ToastContainer
                 position="top-center"
-                autoClose={3000}
+                autoClose={2000}
                 hideProgressBar
                 newestOnTop={false}
                 closeOnClick
@@ -48,7 +48,7 @@ function FlexAttributes(props) {
                     else {
                         toast('Maximum of 24 items can be added!', {
                             position: "top-center",
-                            autoClose: 3000,
+                            autoClose: 2000,
                             hideProgressBar: true,
                             closeOnClick: true,
                             pauseOnHover: false,
@@ -65,7 +65,7 @@ function FlexAttributes(props) {
 
                         toast("Cannot remove anymore items!", {
                             position: "top-center",
-                            autoClose: 3000,
+                            autoClose: 2000,
                             hideProgressBar: true,
                             closeOnClick: true,
                             pauseOnHover: false,
