@@ -16,7 +16,7 @@
 
 .containerSection {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 50vh;
   max-height: 400px;
   flex: 1;
@@ -24,6 +24,10 @@
 
 .hoverStyle {
   height: inherit;
+  width: 60%;
+  display: flex;
+  flex: 1;
+  background-color: #ffebc7;
 }
 
 .otherSection {
@@ -48,6 +52,37 @@
   margin: 10px 40px;
   font-size: 20px;
   font-weight: bold;
+  color: #333;
+}
+
+.pageHeading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pageSubHeading,
+.link {
+  font-size: 14px;
+  color: #ffa500;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.pageDescription {
+  color: #333;
+  padding: 4px 0px;
+}
+
+.githublink {
+  padding: 4px 0px;
+  cursor: pointer;
+}
+
+.link {
+  background-color: #ffebc7;
+  margin: 0px -4px;
+  padding: 0px 4px;
 }
 
 .attributesContainer {
@@ -72,6 +107,7 @@
   font-size: 14px;
   font-weight: bold;
   padding: 4px 10px;
+  color: #333;
 }
 
 .value,
@@ -92,6 +128,13 @@
   font-size: 14px;
 }
 
+.rootFlexHeading {
+  padding: 40px 20px;
+  max-width: 300px;
+  color: #333;
+  font-size: 14px;
+}
+
 @media (hover: hover) {
   .value:hover,
   .itemOperations:hover {
@@ -109,12 +152,26 @@
   .otherSection {
     flex-direction: column;
   }
+  .containerSection {
+    flex-direction: column-reverse;
+    height: unset;
+    max-height: unset;
+  }
   .eachAttributeColumn {
     padding: 10px;
   }
   .rootFlexCode {
     padding: 20px 40px;
     min-width: 240px;
+  }
+  .rootFlexHeading {
+    padding: 20px 40px;
+    min-width: 240px;
+  }
+  .hoverStyle {
+    width: 100%;
+    min-height: 250px;
+    height: 250px;
   }
   .itemOperationsContainer {
     flex: 1;

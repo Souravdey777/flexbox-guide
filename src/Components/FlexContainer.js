@@ -2,12 +2,7 @@ import React from 'react';
 import Styles from '../App.module.css';
 
 function FlexContainer(props) {
-    const dynamicStyles = {
-        width: "100%",
-        display: "flex",
-        flex: "1",
-        backgroundColor: "#ffebc7"
-    }
+    const dynamicStyles = {}
     Object.keys(props.attributes).map(key => {
         console.log(key + " : " + props.attributes[key])
         dynamicStyles[`${key}`] = props.attributes[key]

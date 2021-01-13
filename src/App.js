@@ -3,6 +3,7 @@ import Styles from './App.module.css';
 import FlexCode from './Components/FlexCode';
 import FlexContainer from './Components/FlexContainer';
 import FlexAttributes from './Components/FlexAttributes';
+import FlexHeading from './Components/FlexHeading';
 
 function App() {
   const [attributes, setattributes] = useState(
@@ -20,10 +21,10 @@ function App() {
     <div className={Styles.root}>
       <div className={Styles.containerSection}>
         <FlexContainer heights={heights} attributes={attributes} />
+        <FlexHeading />
       </div>
       <div className={Styles.otherSection}>
         <FlexAttributes attributes={attributes} setattributes={setattributes} heights={heights} setheights={setheights} />
-
         <FlexCode attributes={attributes} />
       </div>
     </div>

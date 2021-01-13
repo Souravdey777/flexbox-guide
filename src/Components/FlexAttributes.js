@@ -1,5 +1,7 @@
 import React from 'react';
 import Styles from '../App.module.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function FlexAttributes(props) {
     const Attributes = {
@@ -11,7 +13,19 @@ function FlexAttributes(props) {
     }
 
     return (
+
         <div className={Styles.rootFlexAttributes} >
+            <ToastContainer
+                position="top-center"
+                autoClose={3000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable={false}
+                pauseOnHover={false}
+            />
             <div className={Styles.heading}>Attributes</div>
             <div className={Styles.attributesContainer}>
                 {Object.keys(props.attributes).map((attributeName, index) =>
@@ -28,13 +42,38 @@ function FlexAttributes(props) {
             <div className={Styles.itemOperationsContainer}>
                 <div className={Styles.attribute}>Flex Items</div>
                 <div className={Styles.itemOperations} onClick={() => {
-                    props.setheights([...props.heights, 60])
-                }}>add Item</div>
+                    if (props.heights.length < 10) {
+                        props.setheights([...props.heights, 60])
+                    }
+                    else {
+                        toast('Maximum of 10 items can be added!', {
+                            position: "top-center",
+                            autoClose: 3000,
+                            hideProgressBar: true,
+                            closeOnClick: true,
+                            pauseOnHover: false,
+                            draggable: false,
+                            progress: undefined,
+                        });
+                    }
+                }}>add item</div>
                 <div className={Styles.itemOperations} onClick={() => {
                     if (props.heights.length > 1) {
                         props.setheights([...props.heights.slice(0, (props.heights.length - 1))])
                     }
-                }}>remove Item</div>
+                    else {
+
+                        toast("Cannot remove anymore items!", {
+                            position: "top-center",
+                            autoClose: 3000,
+                            hideProgressBar: true,
+                            closeOnClick: true,
+                            pauseOnHover: false,
+                            draggable: false,
+                            progress: undefined,
+                        });
+                    }
+                }}>remove item</div>
             </div>
         </div>
     );
