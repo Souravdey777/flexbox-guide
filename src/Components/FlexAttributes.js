@@ -8,8 +8,8 @@ function FlexAttributes(props) {
         flexDirection: ["row", "row-reverse", "column", "column-reverse"],
         flexWrap: ["nowrap", "wrap", "wrap-reverse"],
         justifyContent: ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"],
-        alignItems: ["flex-start", "flex-end", "center", "baseline", "stretch"],
-        alignContent: ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"],
+        alignItems: ["flex-start", "flex-end", "center", "stretch", "baseline"],
+        alignContent: ["flex-start", "flex-end", "center", "space-between", "space-around", "stretch"],
     }
 
     return (
@@ -42,11 +42,11 @@ function FlexAttributes(props) {
             <div className={Styles.itemOperationsContainer}>
                 <div className={Styles.attribute}>Flex Items</div>
                 <div className={Styles.itemOperations} onClick={() => {
-                    if (props.heights.length < 25) {
-                        props.setheights([...props.heights, 60])
+                    if (props.heights.length < 24) {
+                        props.setheights([...props.heights, 40])
                     }
                     else {
-                        toast('Maximum of 25 items can be added!', {
+                        toast('Maximum of 24 items can be added!', {
                             position: "top-center",
                             autoClose: 3000,
                             hideProgressBar: true,

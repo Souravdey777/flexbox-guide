@@ -15,7 +15,7 @@ function App() {
       alignContent: "",
     }
   );
-  const [heights, setheights] = useState([60, 60, 60, 60]);
+  const [heights, setheights] = useState([40, 40, 40, 40]);
 
   return (
     <div className={Styles.root}>

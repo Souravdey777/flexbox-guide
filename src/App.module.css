@@ -29,6 +29,7 @@
   display: flex;
   flex: 1;
   background-color: #ffa50022;
+  overflow: hidden;
 }
 
 .singleItem {
@@ -36,7 +37,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  width: 60px;
+  width: 40px;
   margin: 0.5px;
   background-color: #ffa500;
   font-size: 12px;
@@ -70,8 +71,8 @@
 }
 
 .pageHeading {
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: bolder;
   color: #333;
 }
 
