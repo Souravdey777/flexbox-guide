@@ -189,6 +189,10 @@
   right: -8px;
 }
 
+.rootFlexCode:hover .tooltiptext {
+  display: block;
+}
+
 .rootFlexHeading {
   padding: 40px 20px;
   max-width: 300px;
@@ -201,9 +205,6 @@
   .value:hover,
   .itemOperations:hover {
     background-color: #ffa50022;
-  }
-  .copyIcon:hover .tooltiptext {
-    display: block;
   }
   .copyIcon:hover {
     color: #fff;
