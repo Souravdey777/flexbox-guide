@@ -172,25 +172,29 @@
   right: 20px;
   cursor: pointer;
   color: #fff7;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .copyIcon .tooltiptext {
   display: none;
-  width: 120px;
+  width: 50px;
+  font-size: 12px;
   color: #fff;
   border: 1px solid #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 4px 0;
-  padding-right: 24px;
+  padding: 6px 0px;
+  padding-right: 18px;
   position: absolute;
   z-index: 1;
   top: -5px;
   right: -8px;
-}
-
-.rootFlexCode:hover .tooltiptext {
-  display: block;
 }
 
 .rootFlexHeading {
@@ -205,6 +209,9 @@
   .value:hover,
   .itemOperations:hover {
     background-color: #ffa50022;
+  }
+  .copyIcon:hover .tooltiptext {
+    display: block;
   }
   .copyIcon:hover {
     color: #fff;
