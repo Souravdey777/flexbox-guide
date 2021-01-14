@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/logo.png?raw=true" width=150px/>
+  <img src="./public/logo.png?raw=true" width=100px/>
 </p>
 
 ## Flexbox-Guide
