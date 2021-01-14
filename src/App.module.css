@@ -194,6 +194,7 @@
   max-width: 300px;
   color: #333;
   font-size: 14px;
+  margin: auto;
 }
 
 @media (hover: hover) {
