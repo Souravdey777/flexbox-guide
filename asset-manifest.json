@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Flexbox-Guide/static/css/main.5a872011.chunk.css",
-    "main.js": "/Flexbox-Guide/static/js/main.8f2aa7da.chunk.js",
-    "main.js.map": "/Flexbox-Guide/static/js/main.8f2aa7da.chunk.js.map",
+    "main.js": "/Flexbox-Guide/static/js/main.6c0d37c7.chunk.js",
+    "main.js.map": "/Flexbox-Guide/static/js/main.6c0d37c7.chunk.js.map",
     "runtime-main.js": "/Flexbox-Guide/static/js/runtime-main.9ab3bcb7.js",
     "runtime-main.js.map": "/Flexbox-Guide/static/js/runtime-main.9ab3bcb7.js.map",
     "static/css/2.83342f34.chunk.css": "/Flexbox-Guide/static/css/2.83342f34.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.83342f34.chunk.css",
     "static/js/2.78db6a12.chunk.js",
     "static/css/main.5a872011.chunk.css",
-    "static/js/main.8f2aa7da.chunk.js"
+    "static/js/main.6c0d37c7.chunk.js"
   ]
 }
