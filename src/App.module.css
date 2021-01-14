@@ -233,6 +233,7 @@
   }
   .rootFlexHeading {
     padding: 20px 40px;
+    padding-top: 40px;
     min-width: 240px;
   }
   .hoverStyle {
