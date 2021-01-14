@@ -34,7 +34,7 @@ function FlexCode(props) {
             {
                 document.queryCommandSupported('copy') &&
                 <div onClick={() => copyToClipboard()} className={Styles.copyIcon}><i style={{ fontSize: "16px" }} className="material-icons">content_copy</i>
-                    <span className={Styles.tooltiptext}>Click to Copy</span>
+                    <span className={Styles.tooltiptext}>Copy</span>
                 </div>
             }
             <div ref={textarea}>
