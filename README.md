@@ -19,17 +19,17 @@
 - [Demo](#demo)
 - [Video Demo](#video-demo)
 - [Description](#description)
-- [Concepts of Flexbox](#concept-of-flexbox)
+- [Concepts of Flexbox](#concepts-of-flexbox)
 - [Technologies](#technologies)
 - [Dependencies](#dependencies)
 - [Features](#features)
-- [Contribution and Support](#support-and-contribution)
+- [Contribution and Support](#contribution-and-support)
 - [Setup](#setup)
 - [Learn More](#learn-more)
 
 ### Demo
 
-**[Why wait? Straightaway go to the website and join the Awesomeness 😎 ](http://Souravdey777.github.io/flexbox-guide)**
+**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide)**
 
 <a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
 <p align="center">
