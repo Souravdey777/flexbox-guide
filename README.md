@@ -29,7 +29,7 @@
 
 ### Demo
 
-**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide)**
+**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide){:target="\_blank" rel="noopener"}**
 
 <a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
 <p align="center">
@@ -40,7 +40,6 @@
 **`Todo`**
 
 - [ ] `Documentation`
-- [ ] Share project with the larger Community
 
 ### Video Demo
 
@@ -72,9 +71,9 @@
 
 ### Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started){:target="\_blank" rel="noopener"}.
 
-To learn `React`, check out the [React documentation](https://reactjs.org/).
+To learn `React`, check out the [React documentation](https://reactjs.org/){:target="\_blank" rel="noopener"}.
 
 ##### Code Splitting
 
