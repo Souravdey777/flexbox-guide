@@ -25,6 +25,7 @@
 - [Features](#features)
 - [Contribution and Support](#support-and-contribution)
 - [Setup](#setup)
+- [Learn More](#learn-more)
 
 ### Demo
 
@@ -69,11 +70,11 @@
 
     `npm start` or `yarn start`
 
-##### Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn `React`, check out the [React documentation](https://reactjs.org/).
 
 ##### Code Splitting
 
