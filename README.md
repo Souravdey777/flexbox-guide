@@ -29,8 +29,7 @@
 
 ### Demo
 
-**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide).
-**
+**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide).**
 
 <a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
 <p align="center">
