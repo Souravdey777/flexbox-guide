@@ -19,7 +19,7 @@
 - [Demo](#demo)
 - [Video Demo](#video-demo)
 - [Description](#description)
-- [Concepts of Flexbox](#concepts-of-flexbox)
+- [Concepts of `Flexbox`](#concepts-of-flexbox)
 - [Technologies](#technologies)
 - [Dependencies](#dependencies)
 - [Features](#features)
@@ -29,7 +29,8 @@
 
 ### Demo
 
-**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide){:target="\_blank" rel="noopener"}**
+**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide).
+**
 
 <a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
 <p align="center">
@@ -45,7 +46,7 @@
 
 ### Description
 
-### Concepts of Flexbox
+### Concepts of `Flexbox`
 
 ### Technologies
 
@@ -71,9 +72,9 @@
 
 ### Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started){:target="\_blank" rel="noopener"}.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn `React`, check out the [React documentation](https://reactjs.org/){:target="\_blank" rel="noopener"}.
+To learn `React`, check out the [React documentation](https://reactjs.org/).
 
 ##### Code Splitting
 
