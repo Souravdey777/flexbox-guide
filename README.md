@@ -4,7 +4,7 @@
 </p>
 </a>
 
-# Flexbox-Guide
+# `Flexbox-Guide`
 
 ⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
 
@@ -13,6 +13,7 @@
   <img src="./public/cover.jpg?raw=true" width=1280px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </p>
 </a>
+
 
 ### Table of contents
 
@@ -25,7 +26,9 @@
 - [Features](#features)
 - [Contribution and Support](#contribution-and-support)
 - [Setup](#setup)
-- [Learn More](#learn-more)
+- [Learn More about `Flexbox`](#learn-more-about-flexbox)
+- [Learn More about `Reactjs`](#learn-more-about-Reactjs)
+
 
 ### Demo
 
@@ -43,17 +46,21 @@
 
 ### Video Demo
 
+
 ### Description
 
-### Concepts of `Flexbox`
 
 ### Technologies
 
+
 ### Dependencies
+
 
 ### Features
 
+
 ### Contribution and Support
+
 
 ### Setup
 
@@ -69,7 +76,12 @@
 
     `npm start` or `yarn start`
 
-### Learn More
+### Learn More about `Flexbox`
+
+
+
+
+### Learn More about `Reactjs`
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
