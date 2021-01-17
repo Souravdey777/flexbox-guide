@@ -83,8 +83,8 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ##### Check the references below:
 
-- [Understanding `Flexbox`](https://github.com/ohansemmanuel/Understanding-Flexbox) by Emmanuel Ohans.
-- [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier.
+- [Understanding Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox) by `Emmanuel Ohans`.
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`.
 - [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
 
 ##### If you want to practice using flexbox, try out these games and apps that will help you master flexbox.
