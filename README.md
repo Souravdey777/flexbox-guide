@@ -20,14 +20,13 @@
 - [Demo](#demo)
 - [Video Demo](#video-demo)
 - [Description](#description)
-- [Concepts of `Flexbox`](#concepts-of-flexbox)
 - [Technologies](#technologies)
 - [Dependencies](#dependencies)
 - [Features](#features)
 - [Contribution and Support](#contribution-and-support)
 - [Setup](#setup)
 - [Learn More about `Flexbox`](#learn-more-about-flexbox)
-- [Learn More about `Reactjs`](#learn-more-about-Reactjs)
+- [Learn More about `Reactjs`](#learn-more-about-reactjs)
 
 
 ### Demo
@@ -49,9 +48,13 @@
 
 ### Description
 
+For detailed explanation please check **[A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)** by `Chris Coyier`
 
 ### Technologies
 
+##### For Open Source by Open Source technologies:
+
+   [`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼 
 
 ### Dependencies
 
