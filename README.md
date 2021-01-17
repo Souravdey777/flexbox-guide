@@ -81,8 +81,17 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ### Learn More about `Flexbox`
 
+##### Check the references below:
 
+- [Understanding `Flexbox`](https://github.com/ohansemmanuel/Understanding-Flexbox) by Emmanuel Ohans.
+- [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier.
+- [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
 
+##### If you want to practice using flexbox, try out these games and apps that will help you master flexbox.
+- [Flexbox Defense](http://www.flexboxdefense.com/) is a web game where you learn flexbox while trying to stop the incoming enemies from getting past your defenses.
+- [Flexbox Froggy](http://flexboxfroggy.com/) is a game where you help Froggy and friends by writing CSS code.
+- [Flexyboxes](https://the-echoplex.net/flexyboxes/) is an app that allows you to see code samples and change parameters to see how Flexbox works visually.
+- [Flexbox Patters](https://www.flexboxpatterns.com/) is a website that shows off a bunch of Flexbox examples.
 
 ### Learn More about `Reactjs`
 
