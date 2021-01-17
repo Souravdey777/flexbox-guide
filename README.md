@@ -48,7 +48,7 @@
 
 ### Description
 
-For detailed explanation please check **[A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)** by `Chris Coyier`
+For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
 
 ### Technologies
 
