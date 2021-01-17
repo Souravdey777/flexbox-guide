@@ -66,7 +66,7 @@
 
 ##### Clone/download the repository on your local machine.
 
-    `git clone https://github.com/Souravdey777/Covid19-InfoBot_FE.git`
+    `git clone https://github.com/Souravdey777/flexbox-guide.git`
 
 ##### Install dependencies
 
