@@ -6,7 +6,7 @@
 
 # `Flexbox-Guide`
 
-⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
+⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as needed and copy the CSS code. 🎉
 
 <a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
 <p align="center">
