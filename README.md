@@ -23,6 +23,7 @@
 - [Technologies](#technologies)
 - [Dependencies](#dependencies)
 - [Contribution and Support](#contribution-and-support)
+- [License](#license)
 - [Contact](#contact)
 - [Setup](#setup)
 - [Learn More about `Flexbox`](#learn-more-about-flexbox)
@@ -62,13 +63,35 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
    [`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼 
 
+
 ##### Dependencies
 
+    react ^17.0.1
+    react-dom ^17.0.1
+    react-scripts 4.0.1
+    react-toastify ^6.2.0
 
 
 ### Contribution and Support
 
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
+Open a [Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise a issue](https://github.com/Souravdey777/flexbox-guide/issues).
+
+Loved the project. :star: Star the repository and support the project.
+
+
+### License
+Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
+
+<!--### Contact-->
+
+<!--  <tr>
+    <td>hi<td/>
+    <td>hihfcj<td/>
+  </tr>-->
+    
+    
 ### Setup
 
 ##### Clone/download the repository on your local machine.
