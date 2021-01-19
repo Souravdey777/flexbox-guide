@@ -4,9 +4,10 @@
 </p>
 </a>
 
+
 # `Flexbox-Guide`
 
-⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as needed and copy the CSS code. 🎉
+⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
 
 <a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
 <p align="center">
@@ -15,21 +16,27 @@
 </a>
 
 
-### Table of contents
+### Table of Contents
 
-- [Demo](#demo)
-- [Video Demo](#video-demo)
-- [Description](#description)
+- [About `Flexbox-Guide`](#about-flexbox-guide)
+- [Features](#features)
 - [Technologies](#technologies)
 - [Dependencies](#dependencies)
-- [Features](#features)
 - [Contribution and Support](#contribution-and-support)
+- [Contact](#contact)
 - [Setup](#setup)
 - [Learn More about `Flexbox`](#learn-more-about-flexbox)
 - [Learn More about `Reactjs`](#learn-more-about-reactjs)
 
 
-### Demo
+### About `Flexbox-Guide`
+
+Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
+
+For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
+
+
+##### Demo
 
 **[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide).**
 
@@ -39,16 +46,15 @@
 </p>
 </a>
 
+<!-- ##### Video Demo-->
+<!-- ##### Blog Card -->
+
+### Features
+
 **`Todo`**
 
 - [ ] `Documentation`
 
-### Video Demo
-
-
-### Description
-
-For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
 
 ### Technologies
 
@@ -56,10 +62,8 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
    [`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼 
 
-### Dependencies
+##### Dependencies
 
-
-### Features
 
 
 ### Contribution and Support
