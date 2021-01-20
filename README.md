@@ -1,8 +1,7 @@
-<a  href="https://flexbox-guide.souravdey777.vercel.app">
 <p align="center">
-  <img src="./public/logo.png?raw=true" width=100px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
-</p>
-</a>
+<a  href="https://flexbox-guide.souravdey777.vercel.app">
+<img src="./public/logo.png?raw=true" width=100px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
+</a></p>
 
 # `Flexbox-Guide`
 
