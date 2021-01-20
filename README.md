@@ -85,7 +85,7 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 👨‍🚀 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Loved the project. :star: `Star the Repository` and support the project.
+Loved it!. ⭐ `Star the Repository` and support the project.
 
 ## License
 
