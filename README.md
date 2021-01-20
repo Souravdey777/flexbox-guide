@@ -18,15 +18,16 @@
 - [About `Flexbox-Guide`](#about-flexbox-guide)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Dependencies](#dependencies)
+- [Setup](#setup)
 - [Contribution and Support](#contribution-and-support)
 - [License](#license)
 - [Contact](#contact)
-- [Setup](#setup)
 - [Learn More about `Flexbox`](#learn-more-about-flexbox)
 - [Learn More about `Reactjs`](#learn-more-about-reactjs)
 
-### About `Flexbox-Guide`
+
+
+## About `Flexbox-Guide`
 
 Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
 
@@ -45,13 +46,13 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 <!-- ##### Video Demo-->
 <!-- ##### Blog Card -->
 
-### Features
+## Features
 
 **`Todo`**
 
 - [ ] `Documentation`
 
-### Technologies
+## Technologies
 
 ##### For Open Source by Open Source technologies:
 
@@ -64,26 +65,7 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
     react-scripts 4.0.1
     react-toastify ^6.2.0
 
-### Contribution and Support
-
-[Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
-
-👨‍🚀 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-Loved the project. :star: `Star the Repository` and support the project.
-
-### License
-
-📝 Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
-
-<!--### Contact-->
-
-<!--  <tr>
-    <td>hi<td/>
-    <td>hihfcj<td/>
-  </tr>-->
-
-### Setup
+## Setup
 
 ##### Clone/download the repository on your local machine.
 
@@ -97,7 +79,26 @@ Loved the project. :star: `Star the Repository` and support the project.
 
     `npm start` or `yarn start`
 
-### Learn More about `Flexbox`
+## Contribution and Support
+
+[Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
+
+👨‍🚀 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Loved the project. :star: `Star the Repository` and support the project.
+
+## License
+
+📝 Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
+
+<!--### Contact-->
+
+<!--  <tr>
+    <td>hi<td/>
+    <td>hihfcj<td/>
+  </tr>-->
+
+## Learn More about `Flexbox`
 
 ##### Check the references below:
 
@@ -112,7 +113,7 @@ Loved the project. :star: `Star the Repository` and support the project.
 - [Flexyboxes](https://the-echoplex.net/flexyboxes/) is an app that allows you to see code samples and change parameters to see how Flexbox works visually.
 - [Flexbox Patters](https://www.flexboxpatterns.com/) is a website that shows off a bunch of Flexbox examples.
 
-### Learn More about `Reactjs`
+## Learn More about `Reactjs`
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
