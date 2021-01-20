@@ -44,9 +44,9 @@ function FlexAttributes(props) {
             <div className={Styles.itemOperationsContainer}>
                 <div className={Styles.attribute}>flex items</div>
                 <div className={Styles.itemOperations} onClick={() => {
-                    console.log(props.heightArray.length)
+                    // console.log(props.heightArray.length)
                     if (props.heightArray.length < 24) {
-                        props.setheightArray([...props.heightArray, 40])
+                        props.setheightArray([...props.heightArray, props.height === "fixed" ? 40 : _.sample([20, 30, 40, 50, 60, 70, 80, 90, 100])])
                     }
                     else {
                         toast('Maximum of 24 items can be added!', {
@@ -84,7 +84,7 @@ function FlexAttributes(props) {
                     var i = 0
                     if (props.height === "unset") {
                         for (i = 0; i < props.heightArray.length; i++) {
-                            newHeight[i] = _.sample([20, 30, 40, 50, 60, 70])
+                            newHeight[i] = _.sample([20, 30, 40, 50, 60, 70, 80, 90, 100])
                         }
                         // console.log(newHeight)
                         props.setheightArray([...newHeight])
