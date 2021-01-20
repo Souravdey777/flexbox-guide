@@ -1,20 +1,18 @@
-<a  href="http://Souravdey777.github.io/flexbox-guide">
+<a  href="https://flexbox-guide.souravdey777.vercel.app">
 <p align="center">
   <img src="./public/logo.png?raw=true" width=100px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </p>
 </a>
 
-
 # `Flexbox-Guide`
 
 ⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
 
-<a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
+<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
 <p align="center">
   <img src="./public/cover.jpg?raw=true" width=1280px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </p>
 </a>
-
 
 ### Table of Contents
 
@@ -29,19 +27,17 @@
 - [Learn More about `Flexbox`](#learn-more-about-flexbox)
 - [Learn More about `Reactjs`](#learn-more-about-reactjs)
 
-
 ### About `Flexbox-Guide`
 
 Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
 
 For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
 
-
 ##### Demo
 
-**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide).**
+**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](https://flexbox-guide.souravdey777.vercel.app).**
 
-<a  href="http://Souravdey777.github.io/flexbox-guide" target="_blank">
+<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
 <p align="center">
   <img src="./public/flexbox-guide.gif" width=1280px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </p>
@@ -56,13 +52,11 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 - [ ] `Documentation`
 
-
 ### Technologies
 
 ##### For Open Source by Open Source technologies:
 
-   [`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼 
-
+[`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼
 
 ##### Dependencies
 
@@ -71,15 +65,13 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
     react-scripts 4.0.1
     react-toastify ^6.2.0
 
-
 ### Contribution and Support
 
 [Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
 
-👨‍🚀  Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+👨‍🚀 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Loved the project. :star: `Star the Repository` and support the project.
-
 
 ### License
 
@@ -91,8 +83,7 @@ Loved the project. :star: `Star the Repository` and support the project.
     <td>hi<td/>
     <td>hihfcj<td/>
   </tr>-->
-    
-    
+
 ### Setup
 
 ##### Clone/download the repository on your local machine.
@@ -116,6 +107,7 @@ Loved the project. :star: `Star the Repository` and support the project.
 - [Flexbox by W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
 
 ##### If you want to practice using flexbox, try out these games and apps that will help you master flexbox.
+
 - [Flexbox Defense](http://www.flexboxdefense.com/) is a web game where you learn flexbox while trying to stop the incoming enemies from getting past your defenses.
 - [Flexbox Froggy](http://flexboxfroggy.com/) is a game where you help Froggy and friends by writing CSS code.
 - [Flexyboxes](https://the-echoplex.net/flexyboxes/) is an app that allows you to see code samples and change parameters to see how Flexbox works visually.
