@@ -7,11 +7,11 @@
 
 ⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
 
-<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
 <p align="center">
+<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
   <img src="./public/cover.jpg?raw=true" width=1280px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
-</p>
 </a>
+</p>
 
 ### Table of Contents
 
@@ -36,12 +36,11 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 [https://flexbox-guide.souravdey777.vercel.app](https://flexbox-guide.souravdey777.vercel.app)
 
-<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
-
 <p align="center">
+<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
   <img src="./public/flexbox-guide.gif" width=1280px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
-</p>
 </a>
+</p>
 
 <!-- ##### Video Demo-->
 <!-- ##### Blog Card -->
