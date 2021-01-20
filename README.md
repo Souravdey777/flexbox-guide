@@ -25,8 +25,6 @@
 - [Learn More about `Flexbox`](#learn-more-about-flexbox)
 - [Learn More about `Reactjs`](#learn-more-about-reactjs)
 
-
-
 ## About `Flexbox-Guide`
 
 Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
@@ -48,9 +46,8 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ## Features
 
-**`Todo`**
-
-- [ ] `Documentation`
+- Dynamic code generation
+- Tool to learn Flexbox
 
 ## Technologies
 
@@ -60,10 +57,10 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ##### Dependencies
 
-    react ^17.0.1
-    react-dom ^17.0.1
-    react-scripts 4.0.1
-    react-toastify ^6.2.0
+- react ^17.0.1
+- react-dom ^17.0.1
+- react-scripts 4.0.1
+- react-toastify ^6.2.0
 
 ## Setup
 
@@ -91,12 +88,24 @@ Loved it!. ⭐ `Star the Repository` and support the project.
 
 📝 Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
 
-<!--### Contact-->
+## Contact
 
-<!--  <tr>
-    <td>hi<td/>
-    <td>hihfcj<td/>
-  </tr>-->
+ <tr>
+    <td>
+      <a  href="https://github.com/Souravdey777" target="_blank">
+        <img src="https://avatars1.githubusercontent.com/u/25387138?s=460&v=4" width="100px" title="linkedin" alt="linkedin"/>
+      </a>
+    </td>
+    <td>
+      <a  href="https://www.linkedin.com/in/souravdey777/"  target="_blank">
+        <img src="http://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedIn&logoColor=white" title="linkedin" alt="linkedin"/>
+      </a>
+      <br/>
+      <a  href="https://twitter.com/Souravdey777" target="_blank">
+        <img src="http://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" title="twitter" alt="twitter"/>
+      </a>
+    </td>
+  </tr>
 
 ## Learn More about `Flexbox`
 
