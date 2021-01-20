@@ -113,7 +113,7 @@ Loved the project. :star: `Star the Repository` and support the project.
 
 - [Understanding Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox) by `Emmanuel Ohans`.
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`.
-- [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+- [Flexbox by W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
 
 ##### If you want to practice using flexbox, try out these games and apps that will help you master flexbox.
 - [Flexbox Defense](http://www.flexboxdefense.com/) is a web game where you learn flexbox while trying to stop the incoming enemies from getting past your defenses.
