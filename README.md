@@ -1,5 +1,5 @@
 <p align="center">
-<a  href="https://flexbox-guide.souravdey777.vercel.app">
+<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
 <img src="./public/logo.png?raw=true" width=100px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </a></p>
 
@@ -28,6 +28,15 @@
 ## About `Flexbox-Guide`
 
 Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
+
+Before the Flexbox Layout module, there were four layout modes:
+
+- Block, for sections in a webpage
+- Inline, for text
+- Table, for two-dimensional table data
+- Positioned, for explicit position of an element
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
 
 For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
 
