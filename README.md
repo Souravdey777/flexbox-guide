@@ -5,7 +5,7 @@
 
 # `Flexbox-Guide`
 
-⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
+⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as needed and copy the CSS code. 🎉
 
 <p align="center">
 <a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
@@ -27,7 +27,7 @@
 
 ## About `Flexbox-Guide`
 
-Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
+Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learning or generating the code. Simply arrange the flex items as you need and copy the CSS to your code.
 
 Before the Flexbox Layout module, there were four layout modes:
 
