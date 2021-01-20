@@ -90,22 +90,23 @@ Loved it!. ⭐ `Star the Repository` and support the project.
 
 ## Contact
 
- <tr>
-    <td>
-      <a  href="https://github.com/Souravdey777" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/25387138?s=460&v=4" width="100px" title="linkedin" alt="linkedin"/>
-      </a>
-    </td>
-    <td>
-      <a  href="https://www.linkedin.com/in/souravdey777/"  target="_blank">
-        <img src="http://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedIn&logoColor=white" title="linkedin" alt="linkedin"/>
-      </a>
-      <br/>
-      <a  href="https://twitter.com/Souravdey777" target="_blank">
-        <img src="http://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" title="twitter" alt="twitter"/>
-      </a>
-    </td>
-  </tr>
+[![Portfolio](http://img.shields.io/badge/-Portfolio%20Website-000000?style=flat)][website]
+
+[![LinkedIn](http://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedIn&logoColor=white)][linkedin]
+
+[![Twitter](http://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)][twitter]
+
+[![Mail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white)][mail]
+
+[![Medium](http://img.shields.io/badge/-Medium-black?style=flat&logo=medium&logoColor=white)][medium]
+
+[![Coder Rank](http://img.shields.io/badge/-Coders%20Rank-67A4AC?style=flat&logo=CodersRank&logoColor=white)][codersrank]
+
+[![Product Hunt](http://img.shields.io/badge/-Product%20Hunt-DA552F?style=flat&logo=Product%20Hunt&logoColor=white)][producthunt]
+
+[![Speaker Deck](http://img.shields.io/badge/-Speaker%20Deck-009287?style=flat&logo=Speaker%20deck&logoColor=white)][speakerdeck]
+
+[![Instagram](http://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][instagram]
 
 ## Learn More about `Flexbox`
 
