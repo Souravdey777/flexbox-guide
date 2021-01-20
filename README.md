@@ -47,7 +47,7 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 ## Features
 
 - Dynamic code generation
-- Tool to learn Flexbox
+- Tool to 📚 learn Flexbox
 
 ## Technologies
 
