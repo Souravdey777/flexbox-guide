@@ -2,6 +2,7 @@ import React from 'react';
 import Styles from '../App.module.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import _ from "lodash";
 
 function FlexAttributes(props) {
     const Attributes = {
@@ -43,8 +44,9 @@ function FlexAttributes(props) {
             <div className={Styles.itemOperationsContainer}>
                 <div className={Styles.attribute}>flex items</div>
                 <div className={Styles.itemOperations} onClick={() => {
-                    if (props.count < 24) {
-                        props.setcount(props.count + 1)
+                    console.log(props.heightArray.length)
+                    if (props.heightArray.length < 24) {
+                        props.setheightArray([...props.heightArray, 40])
                     }
                     else {
                         toast('Maximum of 24 items can be added!', {
@@ -59,11 +61,12 @@ function FlexAttributes(props) {
                     }
                 }}>add item</div>
                 <div className={Styles.itemOperations} onClick={() => {
-                    if (props.count > 1) {
-                        props.setcount(props.count - 1)
+                    if (props.heightArray.length > 1) {
+                        var heightArrayTemp = props.heightArray;
+                        heightArrayTemp.pop();
+                        props.setheightArray([...heightArrayTemp])
                     }
                     else {
-
                         toast("Cannot remove anymore items!", {
                             position: "top-center",
                             autoClose: 2000,
@@ -75,6 +78,32 @@ function FlexAttributes(props) {
                         });
                     }
                 }}>remove item</div>
+                <div className={Styles.itemOperations} onClick={() => {
+
+                    var newHeight = []
+                    var i = 0
+                    if (props.height === "unset") {
+                        for (i = 0; i < props.heightArray.length; i++) {
+                            newHeight[i] = _.sample([20, 30, 40, 50, 60, 70])
+                        }
+                        // console.log(newHeight)
+                        props.setheightArray([...newHeight])
+                        props.setheight("random")
+
+                    }
+                    else if (props.height === "random") {
+                        for (i = 0; i < props.heightArray.length; i++) {
+                            newHeight[i] = 40
+                        }
+                        // console.log(newHeight)
+                        props.setheightArray([...newHeight])
+                        props.setheight("fixed")
+
+                    }
+                    else if (props.height === "fixed") {
+                        props.setheight("unset")
+                    }
+                }}>item height: {props.height}</div>
             </div>
         </div>
     );

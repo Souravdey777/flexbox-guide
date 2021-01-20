@@ -5,6 +5,11 @@
   flex: 1;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 .containerSection {
   display: flex;
   flex-direction: row;
@@ -58,7 +63,8 @@
 
 .rootFlexAttributes {
   flex: 1;
-  padding: 20px 0px;
+  padding: 10px 0px;
+  height: fit-content;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
@@ -117,12 +123,15 @@
   margin: 0px 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
 }
 
 .eachAttributeColumn {
   min-width: 150px;
-  padding: 0px 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .itemOperationsContainer {
@@ -142,7 +151,7 @@
 .itemOperations {
   font-size: 14px;
   color: #ffa500;
-  padding: 4px 10px;
+  padding: 2px 10px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -218,13 +227,13 @@
   }
 }
 
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
+} */
+
+@media (max-width: 767px) {
   .attributesContainer {
     flex-direction: column;
   }
-}
-
-@media (max-width: 767px) {
   .otherSection {
     flex-direction: column;
   }
@@ -232,9 +241,6 @@
     flex-direction: column-reverse;
     height: unset;
     max-height: unset;
-  }
-  .eachAttributeColumn {
-    padding: 10px;
   }
   .rootFlexCode {
     padding: 20px 40px;
