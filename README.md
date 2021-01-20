@@ -74,15 +74,16 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ### Contribution and Support
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+[Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
 
-Open a [Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise a issue](https://github.com/Souravdey777/flexbox-guide/issues).
+👨‍🚀  Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Loved the project. :star: Star the repository and support the project.
+Loved the project. :star: `Star the Repository` and support the project.
 
 
 ### License
-Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
+
+📝 Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
 
 <!--### Contact-->
 
