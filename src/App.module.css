@@ -37,7 +37,7 @@
 .singleItem {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   border-radius: 4px;
   width: 40px;
   height: 40px;
