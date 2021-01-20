@@ -72,7 +72,7 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
     `npm install` or `yarn install`
 
-##### Run Snap Shot from the root directory.
+##### Run Snap Shot from the root directory. 🚀
 
     `npm start` or `yarn start`
     
