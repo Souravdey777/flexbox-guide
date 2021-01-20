@@ -4,7 +4,8 @@
 </p>
 </a>
 
-# Flexbox-Guide
+
+# `Flexbox-Guide`
 
 ⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as you needed and copy the CSS code. 🎉
 
@@ -14,20 +15,29 @@
 </p>
 </a>
 
-### Table of contents
 
-- [Demo](#demo)
-- [Video Demo](#video-demo)
-- [Description](#description)
-- [Concepts of `Flexbox`](#concepts-of-flexbox)
+### Table of Contents
+
+- [About `Flexbox-Guide`](#about-flexbox-guide)
+- [Features](#features)
 - [Technologies](#technologies)
 - [Dependencies](#dependencies)
-- [Features](#features)
 - [Contribution and Support](#contribution-and-support)
+- [License](#license)
+- [Contact](#contact)
 - [Setup](#setup)
-- [Learn More](#learn-more)
+- [Learn More about `Flexbox`](#learn-more-about-flexbox)
+- [Learn More about `Reactjs`](#learn-more-about-reactjs)
 
-### Demo
+
+### About `Flexbox-Guide`
+
+Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learnings or generating the code. Simply arrange the flex items as you need and copy the CSS on your website code.
+
+For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
+
+
+##### Demo
 
 **[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](http://Souravdey777.github.io/flexbox-guide).**
 
@@ -37,29 +47,57 @@
 </p>
 </a>
 
+<!-- ##### Video Demo-->
+<!-- ##### Blog Card -->
+
+### Features
+
 **`Todo`**
 
 - [ ] `Documentation`
 
-### Video Demo
-
-### Description
-
-### Concepts of `Flexbox`
 
 ### Technologies
 
-### Dependencies
+##### For Open Source by Open Source technologies:
 
-### Features
+   [`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼 
+
+
+##### Dependencies
+
+    react ^17.0.1
+    react-dom ^17.0.1
+    react-scripts 4.0.1
+    react-toastify ^6.2.0
+
 
 ### Contribution and Support
 
+[Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
+
+👨‍🚀  Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Loved the project. :star: `Star the Repository` and support the project.
+
+
+### License
+
+📝 Distributed under the `MIT` License. See [LICENSE](https://github.com/Souravdey777/flexbox-guide/blob/main/LICENSE) for more information.
+
+<!--### Contact-->
+
+<!--  <tr>
+    <td>hi<td/>
+    <td>hihfcj<td/>
+  </tr>-->
+    
+    
 ### Setup
 
 ##### Clone/download the repository on your local machine.
 
-    `git clone https://github.com/Souravdey777/Covid19-InfoBot_FE.git`
+    `git clone https://github.com/Souravdey777/flexbox-guide.git`
 
 ##### Install dependencies
 
@@ -69,7 +107,21 @@
 
     `npm start` or `yarn start`
 
-### Learn More
+### Learn More about `Flexbox`
+
+##### Check the references below:
+
+- [Understanding Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox) by `Emmanuel Ohans`.
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`.
+- [Flexbox by W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+
+##### If you want to practice using flexbox, try out these games and apps that will help you master flexbox.
+- [Flexbox Defense](http://www.flexboxdefense.com/) is a web game where you learn flexbox while trying to stop the incoming enemies from getting past your defenses.
+- [Flexbox Froggy](http://flexboxfroggy.com/) is a game where you help Froggy and friends by writing CSS code.
+- [Flexyboxes](https://the-echoplex.net/flexyboxes/) is an app that allows you to see code samples and change parameters to see how Flexbox works visually.
+- [Flexbox Patters](https://www.flexboxpatterns.com/) is a website that shows off a bunch of Flexbox examples.
+
+### Learn More about `Reactjs`
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
