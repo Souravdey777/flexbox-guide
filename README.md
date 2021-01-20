@@ -33,11 +33,12 @@ Flexbox-Guide is a website developed for web developers and Coding newbies learn
 
 For detailed explanation please check [A Complete Guide to `Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by `Chris Coyier`
 
-##### Demo
+**Why wait? Straightaway go to the website and join the `Awesomeness`** 😎
 
-**[Why wait? Straightaway go to the website and join the `Awesomeness` 😎 ](https://flexbox-guide.souravdey777.vercel.app).**
+[https://flexbox-guide.souravdey777.vercel.app](https://flexbox-guide.souravdey777.vercel.app)
 
 <a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
+
 <p align="center">
   <img src="./public/flexbox-guide.gif" width=1280px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </p>
