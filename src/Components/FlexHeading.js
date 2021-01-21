@@ -10,7 +10,7 @@ function FlexHeading(props) {
             <div className={Styles.pageDescription}>CSS Flexible Box Layout is a module of CSS that defines a CSS box model optimized for user interface design, and the layout of items in one dimension.</div>
             <div className={Styles.pageDescription}>Show some love <span className="material-icons" style={{ fontSize: "14px", margin: "0px -2px", verticalAlign: "-2px", color: "#ffa500" }}>star</span> Star the Repository and support the project</div>
             <div className={Styles.githublink}><a href="https://github.com/Souravdey777/Flexbox-Guide" target="_blank" rel="noreferrer"><img style={{ borderRadius: "4px" }} title="FlexBox-Guide Github Repo" alt="Flexbox-Guide Github Repo" src="https://img.shields.io/badge/Source%20Code-ffa500?style=flat-square&logo=github&logoColor=fff&label=Github&labelColor=333" /></a></div>
-            <div><a href="https://www.producthunt.com/posts/flexbox-guide?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-flexbox-guide" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=281660&theme=light" alt="Flexbox-Guide - Flexbox-Guide : A flexbox code generator | Product Hunt" style={{ width: "144px", height: "32px" }} /></a></div>
+            <div><a href="https://www.producthunt.com/posts/flexbox-guide?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-flexbox-guide" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=281660&theme=light" alt="Flexbox-Guide - Flexbox-Guide : A flexbox code generator | Product Hunt" style={{ width: "144px", height: "32px" }} /></a></div>
         </div >
     );
 }
