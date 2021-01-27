@@ -67,7 +67,7 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ##### For Open Source by Open Source technologies:
 
-[`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼
+[![`Reactjs`](https://img.shields.io/badge/-ReactJs-000000?style=flat&logo=react&logoColor=00c8ff)](#learn-more-about-reactjs) and that's it. ✌🏼
 
 ##### Dependencies
 
