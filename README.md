@@ -3,7 +3,7 @@
 <img src="./public/logo.png?raw=true" width=100px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
 </a></p>
 
-<p align="center">
+<p >
 <a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
   <b>Go to Flexbox-Guide &rarr;</b>
 </a></p>
@@ -67,7 +67,7 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ##### For Open Source by Open Source technologies:
 
-[![`Reactjs`](https://img.shields.io/badge/-ReactJs-000000?style=flat&logo=react&logoColor=00c8ff)](#learn-more-about-reactjs) and that's it. ✌🏼
+[`Reactjs`](#learn-more-about-reactjs) and that's it. ✌🏼
 
 ##### Dependencies
 
