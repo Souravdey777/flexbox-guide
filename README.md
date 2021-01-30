@@ -96,10 +96,6 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 
 ## Contribution and Support
 
-[Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
-
-👨‍🚀 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
-
 Loved it!. ⭐ `Star the Repository` and support the project.
 
 Upvote in 🚀 **Product Hunt**.
@@ -107,9 +103,13 @@ Upvote in 🚀 **Product Hunt**.
 <a href="https://www.producthunt.com/posts/flexbox-guide?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-flexbox-guide" target="_blank">
   <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=281660&theme=light" alt="Flexbox-Guide - Flexbox-Guide : A flexbox code generator | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" />
 </a>
-<br/>
+
+[Open a Pull Request](https://github.com/Souravdey777/flexbox-guide/pulls) or [Raise an Issue](https://github.com/Souravdey777/flexbox-guide/issues).
+
+👨‍🚀 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
 <a href="https://www.buymeacoffee.com/Souravdey777" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="160px" >
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="160" >
 </a>
 
 ## License
