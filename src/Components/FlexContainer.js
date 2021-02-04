@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from '../App.module.css';
+import PropTypes from 'prop-types';
 
 function FlexContainer(props) {
     const dynamicStyles = {}
@@ -19,5 +20,11 @@ function FlexContainer(props) {
         </div>
     );
 }
+
+FlexContainer.propTypes = {
+    height: PropTypes.string,
+    heightArray: PropTypes.array,
+    attributes: PropTypes.object
+};
 
 export default FlexContainer;

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Styles from '../App.module.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import PropTypes from 'prop-types';
 
 function FlexCode(props) {
     const textarea = useRef();
@@ -49,5 +50,9 @@ function FlexCode(props) {
         </div >
     );
 }
+
+FlexCode.propTypes = {
+    attributes: PropTypes.object
+};
 
 export default FlexCode;

@@ -3,6 +3,7 @@ import Styles from '../App.module.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import _ from "lodash";
+import PropTypes from 'prop-types';
 
 function FlexAttributes(props) {
     const Attributes = {
@@ -109,6 +110,15 @@ function FlexAttributes(props) {
     );
 }
 
+FlexAttributes.propTypes = {
+    height: PropTypes.string,
+    setheight: PropTypes.func,
+    heightArray: PropTypes.array,
+    setheightArray: PropTypes.func,
+    attributes: PropTypes.object,
+    setattributes: PropTypes.func
+};
+
 function Value(props) {
     return (
         <div className={Styles.value} style={props.attributes[`${props.attributeName}`] === props.value ? { backgroundColor: "#ffa500", color: "#fff" } : {}}
@@ -119,5 +129,12 @@ function Value(props) {
         </div>
     );
 }
+
+Value.propTypes = {
+    attributeName: PropTypes.string,
+    attributes: PropTypes.object,
+    setattributes: PropTypes.func,
+    value: PropTypes.string,
+};
 
 export default FlexAttributes;

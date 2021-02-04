@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from '../App.module.css';
 
-function FlexHeading(props) {
+function FlexHeading() {
     return (
         <div className={Styles.rootFlexHeading}>
             <div className={Styles.pageHeading}>Flexbox-Guide</div>
