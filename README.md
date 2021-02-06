@@ -63,7 +63,9 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 </p>
 
 <!-- ##### Video Demo-->
-<!-- ##### Blog Card -->
+##### Blog about Flexbox-Guide
+
+[![Blog on Flexbox-Guide](https://hashnode-blog-cards.souravdey777.vercel.app/api/getHashnodeBlog?url=https://souravdey777.hashnode.dev/flexbox-guide-flexbox-layout-made-simple-with-an-interactive-tool&large=true&theme=light)](https://souravdey777.hashnode.dev/flexbox-guide-flexbox-layout-made-simple-with-an-interactive-tool)
 
 ## Features
 
@@ -82,6 +84,13 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 - react-dom ^17.0.1
 - react-scripts 4.0.1
 - react-toastify ^6.2.0
+
+##### Dev Dependencies
+
+- eslint: ^7.19.0
+- eslint-plugin-react: ^7.22.0
+- gh-pages: ^3.1.0
+
 
 ## Setup
 
