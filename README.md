@@ -1,16 +1,23 @@
 <p align="center">
 <a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
 <img src="./public/logo.png?raw=true" width=100px title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
-</a></p>
+</a>
+</p>
+<p align="center">
+<a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
+<img src="https://img.shields.io/badge/-Flexbox Guide-FFA500?style=flat" height="30px" title="Flexbox-Guide: A Flexbox Code Generator" alt="Flexbox-Guide"/>
+</a>
+</p>
+
+# `Flexbox-Guide`
 
 <p >
 <a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
   <b>Go to Flexbox-Guide &rarr;</b>
 </a></p>
 
-# `Flexbox-Guide`
-
 ⚡ A Guide for the concept of `Flexbox` and `Responsive Design`. Simply set the attributes as needed and copy the CSS code. 🎉
+
 
 <p align="center">
 <a  href="https://flexbox-guide.souravdey777.vercel.app" target="_blank">
@@ -56,7 +63,9 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 </p>
 
 <!-- ##### Video Demo-->
-<!-- ##### Blog Card -->
+##### Blog about Flexbox-Guide
+
+[![Blog on Flexbox-Guide](https://hashnode-blog-cards.souravdey777.vercel.app/api/getHashnodeBlog?url=https://souravdey777.hashnode.dev/flexbox-guide-flexbox-layout-made-simple-with-an-interactive-tool&large=true&theme=light)](https://souravdey777.hashnode.dev/flexbox-guide-flexbox-layout-made-simple-with-an-interactive-tool)
 
 ## Features
 
@@ -75,6 +84,13 @@ For detailed explanation please check [A Complete Guide to `Flexbox`](https://cs
 - react-dom ^17.0.1
 - react-scripts 4.0.1
 - react-toastify ^6.2.0
+
+##### Dev Dependencies
+
+- eslint: ^7.19.0
+- eslint-plugin-react: ^7.22.0
+- gh-pages: ^3.1.0
+
 
 ## Setup
 
