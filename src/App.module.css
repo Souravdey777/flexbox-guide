@@ -205,11 +205,25 @@
 }
 
 .rootFlexHeading {
-  padding: 40px 20px;
+  padding: 20px;
   max-width: 300px;
   color: #333;
   font-size: 14px;
   margin: auto;
+}
+
+.social_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100px;
+}
+
+.social_icons i {
+  color: #333 !important;
+  font-size: 20px;
+  margin: 6px 0px;
+  transition-duration: 0.5s;
 }
 
 @media (hover: hover) {
@@ -223,10 +237,10 @@
   .copyIcon:hover {
     color: #fff;
   }
+  .social_icons i:hover {
+    color: #ffa500 !important;
+  }
 }
-
-/* @media (max-width: 1023px) {
-} */
 
 @media (max-width: 767px) {
   .attributesContainer {
