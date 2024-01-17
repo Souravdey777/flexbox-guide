@@ -8,6 +8,13 @@ function FlexHeading() {
             <div className={Styles.pageSubHeading}>Developed with love by <a className={Styles.link} href="https://github.com/Souravdey777" target="_blank" rel="noreferrer">@Souravdey777</a></div>
             <div className={Styles.social_icons}>
                 <a
+                    href="https://souravdey.space/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className="fab fa-globe"></i>
+                </a>
+                <a
                     href="https://github.com/Souravdey777/"
                     target="_blank"
                     rel="noopener noreferrer"
