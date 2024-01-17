@@ -10,7 +10,7 @@
   "description": "⚡ A Guide for the concept of Flexbox and responsive design. Set the attributes as needed and copy the CSS code. 🎉",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
     "react": "^17.0.2",
