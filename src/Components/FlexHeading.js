@@ -12,7 +12,7 @@ function FlexHeading() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img style={{ borderRadius: "4px" }} title="FlexBox-Guide Github Repo" alt="Flexbox-Guide Github Repo" src="https://img.shields.io/badge/souravdey.space-000?style=flat-square" />
+                    <img style={{ borderRadius: "4px" }} title="Sourav Dey: Portfolio Website" alt="Sourav Dey: Portfolio Website" src="https://img.shields.io/badge/souravdey.space-000?style=flat-square" />
                 </a>
                 <a
                     href="https://github.com/Souravdey777/"
