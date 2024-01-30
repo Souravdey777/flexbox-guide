@@ -12,7 +12,7 @@ function FlexHeading() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i className="fab fa-link"></i>
+                    <img style={{ borderRadius: "4px" }} title="FlexBox-Guide Github Repo" alt="Flexbox-Guide Github Repo" src="https://img.shields.io/badge/souravdey.space-000?style=flat-square" />
                 </a>
                 <a
                     href="https://github.com/Souravdey777/"
