@@ -12,7 +12,7 @@ function FlexHeading() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i className="fab fa-globe"></i>
+                    <i className="fab fa-link"></i>
                 </a>
                 <a
                     href="https://github.com/Souravdey777/"
