@@ -6,14 +6,16 @@ function FlexHeading() {
         <div className={Styles.rootFlexHeading}>
             <div className={Styles.pageHeading}>Flexbox-Guide</div>
             <div className={Styles.pageSubHeading}>Developed with love by <a className={Styles.link} href="https://github.com/Souravdey777" target="_blank" rel="noreferrer">@Souravdey777</a></div>
-            <div className={Styles.social_icons}>
-                <a
+                 <div className={Styles.pageDescription}>
+<a
                     href="https://souravdey.space/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img style={{ borderRadius: "4px" }} title="Sourav Dey: Portfolio Website" alt="Sourav Dey: Portfolio Website" src="https://img.shields.io/badge/souravdey.space-000?style=flat-square" />
-                </a>
+                </a>      
+                        </div>
+<div className={Styles.social_icons}>
                 <a
                     href="https://github.com/Souravdey777/"
                     target="_blank"
