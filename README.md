@@ -39,7 +39,7 @@
 
 ## About `Flexbox-Guide`
 
-Flexbox-Guide is a website developed for web developers and Coding newbies learning `CSS Flexbox Layout`. This website can be used for both learning or generating the code. Simply arrange the flex items as you need and copy the CSS to your code.
+Flexbox-Guide is a website developed for web developers and Coding newbies learning [`CSS Flexbox Layout`](https://www.scaler.com/topics/css/css-flexbox/). This website can be used for both learning or generating the code. Simply arrange the flex items as you need and copy the CSS to your code.
 
 Before the Flexbox Layout module, there were four layout modes:
 
